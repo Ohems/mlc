@@ -1,0 +1,31 @@
+{
+  "name": "mlc",
+  "version": "0.1.0",
+  "description": "Massive Log Compresser",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npm run eslint",
+    "eslint": "eslint ./src index.js",
+    "example": "node index.js 200 20 ./example/line_data.txt line_sum ./example/scatter_data.txt scatter"
+  },
+  "keywords": [
+    "massive",
+    "huge",
+    "log",
+    "calculate",
+    "compress",
+    "data",
+    "script"
+  ],
+  "author": "Daniel Saarimäki",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.1.1",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.6.1"
+  },
+  "dependencies": {
+    "moment": "^2.18.1"
+  }
+}
